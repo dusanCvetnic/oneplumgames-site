@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>OnePlum Games</title>
+  <meta name="description" content="Official website of OnePlum Games, an indie game studio developing Clouds of Venus." />
+  <meta name="keywords" content="OnePlum Games, indie game studio, Clouds of Venus, indie games, game development" />
+  <meta name="author" content="OnePlum Games" />
+
+  <meta property="og:title" content="OnePlum Games" />
+  <meta property="og:description" content="Indie game studio developing Clouds of Venus." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://oneplumgames.com/" />
+  <meta property="og:image" content="https://oneplumgames.com/assets/favicon.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="OnePlum Games" />
+  <meta name="twitter:description" content="Indie game studio developing Clouds of Venus." />
+  <meta name="twitter:image" content="https://oneplumgames.com/assets/favicon.svg" />
+
+  <link rel="canonical" href="https://oneplumgames.com/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 120 120" role="img" aria-label="OnePlum Games logo placeholder">
+          <path class="leaf" d="M59 26 C48 12 31 13 22 26 C36 31 49 31 59 26Z" />
+          <path class="stem" d="M63 37 C67 26 73 18 83 12" />
+          <path class="plum-shadow" d="M61 30 C83 30 101 47 101 70 C101 93 83 110 60 110 C36 110 18 93 18 70 C18 47 36 30 61 30Z" />
+          <path class="plum" d="M61 38 C79 38 92 52 92 70 C92 89 78 101 60 101 C41 101 27 89 27 70 C27 52 41 38 61 38Z" />
+          <path class="spark" d="M73 55 L78 66 L89 71 L78 76 L73 87 L68 76 L57 71 L68 66Z" />
+        </svg>
+      </div>
+
+      <p class="eyebrow">Indie Game Studio</p>
+      <h1>OnePlum Games</h1>
+      <p class="intro">
+        Creating atmospheric, stylized indie games with simple ideas, strong mood,
+        and polished gameplay feel.
+      </p>
+
+      <div class="buttons">
+        <a class="button primary" href="#clouds-of-venus">Current Project</a>
+        <a class="button secondary" href="#links">Follow Development</a>
+      </div>
+    </section>
+
+    <section id="clouds-of-venus" class="card project-card">
+      <div>
+        <p class="eyebrow">Current Project</p>
+        <h2>Clouds of Venus</h2>
+        <p>
+          A 2D atmospheric survival-flight game set in the deadly skies of Venus.
+          Pilot a fragile ship through wind, pressure, storms, and toxic clouds.
+        </p>
+        <p class="status">Status: early development</p>
+      </div>
+    </section>
+
+    <section id="links" class="card">
+      <p class="eyebrow">Links</p>
+      <h2>Follow OnePlum Games</h2>
+      <div class="social-links">
+        <a href="https://www.instagram.com/oneplumgames/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.tiktok.com/@oneplumgames" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="https://www.youtube.com/@oneplumgames" target="_blank" rel="noopener noreferrer">YouTube</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">Contact</p>
+      <h2>Business & Press</h2>
+      <p>
+        Contact email coming soon. For now, follow development through the official
+        OnePlum Games social channels.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> OnePlum Games. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
