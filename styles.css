@@ -1,13 +1,9 @@
 :root {
   --bg: #0f0b16;
-  --bg-soft: #171023;
   --card: rgba(255, 255, 255, 0.06);
   --card-border: rgba(255, 255, 255, 0.12);
   --text: #f7f0ff;
   --muted: #c9badb;
-  --purple: #9b5cff;
-  --purple-dark: #4d197f;
-  --purple-soft: #b98cff;
   --accent: #f7d66b;
 }
 
@@ -45,42 +41,12 @@ body {
 }
 
 .logo-mark {
-  width: 132px;
-  height: 132px;
+  width: 148px;
+  height: 148px;
+  object-fit: contain;
   margin-bottom: 24px;
-}
-
-.logo-mark svg {
-  width: 100%;
-  height: 100%;
+  border-radius: 28px;
   filter: drop-shadow(0 20px 36px rgba(0, 0, 0, 0.35));
-}
-
-.leaf,
-.stem,
-.plum-shadow {
-  fill: none;
-  stroke: var(--purple-dark);
-  stroke-width: 8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.leaf {
-  fill: #5e248f;
-}
-
-.plum-shadow {
-  fill: #4d197f;
-  stroke: #2d1048;
-}
-
-.plum {
-  fill: #8f45df;
-}
-
-.spark {
-  fill: #fff7d8;
 }
 
 .eyebrow {
@@ -130,7 +96,7 @@ h2 {
   border-radius: 999px;
   font-weight: 700;
   text-decoration: none;
-  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+  transition: transform 160ms ease, background 160ms ease;
 }
 
 .button:hover {
@@ -217,8 +183,8 @@ footer {
   }
 
   .logo-mark {
-    width: 104px;
-    height: 104px;
+    width: 120px;
+    height: 120px;
   }
 
   .button {
